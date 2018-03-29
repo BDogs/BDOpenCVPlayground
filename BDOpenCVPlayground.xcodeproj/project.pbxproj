@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9FA204A206CAD42004101D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FA2049206CAD42004101D6 /* AppDelegate.m */; };
+		F9FA204D206CAD42004101D6 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F9FA204C206CAD42004101D6 /* ViewController.mm */; };
+		F9FA204F206CAD42004101D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9FA204E206CAD42004101D6 /* Assets.xcassets */; };
+		F9FA2052206CAD42004101D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FA2050206CAD42004101D6 /* Main.storyboard */; };
+		F9FA2055206CAD42004101D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FA2054206CAD42004101D6 /* main.m */; };
+		F9FA2060206CAD42004101D6 /* BDOpenCVPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FA205F206CAD42004101D6 /* BDOpenCVPlaygroundTests.m */; };
+		F9FA206B206CAD42004101D6 /* BDOpenCVPlaygroundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FA206A206CAD42004101D6 /* BDOpenCVPlaygroundUITests.m */; };
+		F9FA2083206CAF81004101D6 /* NSImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = F9FA2082206CAF81004101D6 /* NSImage+OpenCV.mm */; };
+		F9FA208B206CC074004101D6 /* libopencv_imgproc.3.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9FA2088206CC074004101D6 /* libopencv_imgproc.3.4.1.dylib */; };
+		F9FA208C206CC074004101D6 /* libopencv_highgui.3.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9FA2089206CC074004101D6 /* libopencv_highgui.3.4.1.dylib */; };
+		F9FA208D206CC074004101D6 /* libopencv_core.3.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9FA208A206CC074004101D6 /* libopencv_core.3.4.1.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9FA205C206CAD42004101D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9FA203D206CAD42004101D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9FA2044206CAD42004101D6;
+			remoteInfo = BDOpenCVPlayground;
+		};
+		F9FA2067206CAD42004101D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9FA203D206CAD42004101D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9FA2044206CAD42004101D6;
+			remoteInfo = BDOpenCVPlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9FA2045206CAD42004101D6 /* BDOpenCVPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDOpenCVPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FA2048206CAD42004101D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9FA2049206CAD42004101D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9FA204B206CAD42004101D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9FA204C206CAD42004101D6 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		F9FA204E206CAD42004101D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9FA2051206CAD42004101D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9FA2053206CAD42004101D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9FA2054206CAD42004101D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9FA2056206CAD42004101D6 /* BDOpenCVPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BDOpenCVPlayground.entitlements; sourceTree = "<group>"; };
+		F9FA205B206CAD42004101D6 /* BDOpenCVPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDOpenCVPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FA205F206CAD42004101D6 /* BDOpenCVPlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDOpenCVPlaygroundTests.m; sourceTree = "<group>"; };
+		F9FA2061206CAD42004101D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9FA2066206CAD42004101D6 /* BDOpenCVPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDOpenCVPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FA206A206CAD42004101D6 /* BDOpenCVPlaygroundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDOpenCVPlaygroundUITests.m; sourceTree = "<group>"; };
+		F9FA206C206CAD42004101D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9FA2079206CAF0E004101D6 /* libopencv_imgproc.3.4.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.3.4.1.dylib; path = ../../../../../../usr/local/lib/libopencv_imgproc.3.4.1.dylib; sourceTree = "<group>"; };
+		F9FA207A206CAF0E004101D6 /* libopencv_highgui.3.4.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.3.4.1.dylib; path = ../../../../../../usr/local/lib/libopencv_highgui.3.4.1.dylib; sourceTree = "<group>"; };
+		F9FA207B206CAF0E004101D6 /* libopencv_core.3.4.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.3.4.1.dylib; path = ../../../../../../usr/local/lib/libopencv_core.3.4.1.dylib; sourceTree = "<group>"; };
+		F9FA2081206CAF81004101D6 /* NSImage+OpenCV.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = "NSImage+OpenCV.h"; sourceTree = "<group>"; };
+		F9FA2082206CAF81004101D6 /* NSImage+OpenCV.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSImage+OpenCV.mm"; sourceTree = "<group>"; };
+		F9FA2084206CBD5C004101D6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F9FA2088206CC074004101D6 /* libopencv_imgproc.3.4.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_imgproc.3.4.1.dylib; sourceTree = "<group>"; };
+		F9FA2089206CC074004101D6 /* libopencv_highgui.3.4.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_highgui.3.4.1.dylib; sourceTree = "<group>"; };
+		F9FA208A206CC074004101D6 /* libopencv_core.3.4.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_core.3.4.1.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9FA2042206CAD42004101D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FA208D206CC074004101D6 /* libopencv_core.3.4.1.dylib in Frameworks */,
+				F9FA208B206CC074004101D6 /* libopencv_imgproc.3.4.1.dylib in Frameworks */,
+				F9FA208C206CC074004101D6 /* libopencv_highgui.3.4.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FA2058206CAD42004101D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FA2063206CAD42004101D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9FA203C206CAD42004101D6 = {
+			isa = PBXGroup;
+			children = (
+				F9FA2047206CAD42004101D6 /* BDOpenCVPlayground */,
+				F9FA205E206CAD42004101D6 /* BDOpenCVPlaygroundTests */,
+				F9FA2069206CAD42004101D6 /* BDOpenCVPlaygroundUITests */,
+				F9FA2046206CAD42004101D6 /* Products */,
+				F9FA2078206CAF0E004101D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9FA2046206CAD42004101D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9FA2045206CAD42004101D6 /* BDOpenCVPlayground.app */,
+				F9FA205B206CAD42004101D6 /* BDOpenCVPlaygroundTests.xctest */,
+				F9FA2066206CAD42004101D6 /* BDOpenCVPlaygroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9FA2047206CAD42004101D6 /* BDOpenCVPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				F9FA2087206CC020004101D6 /* lib */,
+				F9FA207F206CAF21004101D6 /* unit */,
+				F9FA2048206CAD42004101D6 /* AppDelegate.h */,
+				F9FA2049206CAD42004101D6 /* AppDelegate.m */,
+				F9FA204B206CAD42004101D6 /* ViewController.h */,
+				F9FA204C206CAD42004101D6 /* ViewController.mm */,
+				F9FA2084206CBD5C004101D6 /* PrefixHeader.pch */,
+				F9FA204E206CAD42004101D6 /* Assets.xcassets */,
+				F9FA2050206CAD42004101D6 /* Main.storyboard */,
+				F9FA2053206CAD42004101D6 /* Info.plist */,
+				F9FA2054206CAD42004101D6 /* main.m */,
+				F9FA2056206CAD42004101D6 /* BDOpenCVPlayground.entitlements */,
+			);
+			path = BDOpenCVPlayground;
+			sourceTree = "<group>";
+		};
+		F9FA205E206CAD42004101D6 /* BDOpenCVPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9FA205F206CAD42004101D6 /* BDOpenCVPlaygroundTests.m */,
+				F9FA2061206CAD42004101D6 /* Info.plist */,
+			);
+			path = BDOpenCVPlaygroundTests;
+			sourceTree = "<group>";
+		};
+		F9FA2069206CAD42004101D6 /* BDOpenCVPlaygroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9FA206A206CAD42004101D6 /* BDOpenCVPlaygroundUITests.m */,
+				F9FA206C206CAD42004101D6 /* Info.plist */,
+			);
+			path = BDOpenCVPlaygroundUITests;
+			sourceTree = "<group>";
+		};
+		F9FA2078206CAF0E004101D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9FA207B206CAF0E004101D6 /* libopencv_core.3.4.1.dylib */,
+				F9FA207A206CAF0E004101D6 /* libopencv_highgui.3.4.1.dylib */,
+				F9FA2079206CAF0E004101D6 /* libopencv_imgproc.3.4.1.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9FA207F206CAF21004101D6 /* unit */ = {
+			isa = PBXGroup;
+			children = (
+				F9FA2080206CAF52004101D6 /* category */,
+			);
+			path = unit;
+			sourceTree = "<group>";
+		};
+		F9FA2080206CAF52004101D6 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				F9FA2081206CAF81004101D6 /* NSImage+OpenCV.h */,
+				F9FA2082206CAF81004101D6 /* NSImage+OpenCV.mm */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		F9FA2087206CC020004101D6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				F9FA208A206CC074004101D6 /* libopencv_core.3.4.1.dylib */,
+				F9FA2089206CC074004101D6 /* libopencv_highgui.3.4.1.dylib */,
+				F9FA2088206CC074004101D6 /* libopencv_imgproc.3.4.1.dylib */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9FA2044206CAD42004101D6 /* BDOpenCVPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9FA206F206CAD42004101D6 /* Build configuration list for PBXNativeTarget "BDOpenCVPlayground" */;
+			buildPhases = (
+				F9FA2041206CAD42004101D6 /* Sources */,
+				F9FA2042206CAD42004101D6 /* Frameworks */,
+				F9FA2043206CAD42004101D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDOpenCVPlayground;
+			productName = BDOpenCVPlayground;
+			productReference = F9FA2045206CAD42004101D6 /* BDOpenCVPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9FA205A206CAD42004101D6 /* BDOpenCVPlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9FA2072206CAD42004101D6 /* Build configuration list for PBXNativeTarget "BDOpenCVPlaygroundTests" */;
+			buildPhases = (
+				F9FA2057206CAD42004101D6 /* Sources */,
+				F9FA2058206CAD42004101D6 /* Frameworks */,
+				F9FA2059206CAD42004101D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9FA205D206CAD42004101D6 /* PBXTargetDependency */,
+			);
+			name = BDOpenCVPlaygroundTests;
+			productName = BDOpenCVPlaygroundTests;
+			productReference = F9FA205B206CAD42004101D6 /* BDOpenCVPlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9FA2065206CAD42004101D6 /* BDOpenCVPlaygroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9FA2075206CAD42004101D6 /* Build configuration list for PBXNativeTarget "BDOpenCVPlaygroundUITests" */;
+			buildPhases = (
+				F9FA2062206CAD42004101D6 /* Sources */,
+				F9FA2063206CAD42004101D6 /* Frameworks */,
+				F9FA2064206CAD42004101D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9FA2068206CAD42004101D6 /* PBXTargetDependency */,
+			);
+			name = BDOpenCVPlaygroundUITests;
+			productName = BDOpenCVPlaygroundUITests;
+			productReference = F9FA2066206CAD42004101D6 /* BDOpenCVPlaygroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9FA203D206CAD42004101D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "品驰医疗";
+				TargetAttributes = {
+					F9FA2044206CAD42004101D6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					F9FA205A206CAD42004101D6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9FA2044206CAD42004101D6;
+					};
+					F9FA2065206CAD42004101D6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9FA2044206CAD42004101D6;
+					};
+				};
+			};
+			buildConfigurationList = F9FA2040206CAD42004101D6 /* Build configuration list for PBXProject "BDOpenCVPlayground" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9FA203C206CAD42004101D6;
+			productRefGroup = F9FA2046206CAD42004101D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9FA2044206CAD42004101D6 /* BDOpenCVPlayground */,
+				F9FA205A206CAD42004101D6 /* BDOpenCVPlaygroundTests */,
+				F9FA2065206CAD42004101D6 /* BDOpenCVPlaygroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9FA2043206CAD42004101D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FA204F206CAD42004101D6 /* Assets.xcassets in Resources */,
+				F9FA2052206CAD42004101D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FA2059206CAD42004101D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FA2064206CAD42004101D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9FA2041206CAD42004101D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FA2083206CAF81004101D6 /* NSImage+OpenCV.mm in Sources */,
+				F9FA204D206CAD42004101D6 /* ViewController.mm in Sources */,
+				F9FA2055206CAD42004101D6 /* main.m in Sources */,
+				F9FA204A206CAD42004101D6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FA2057206CAD42004101D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FA2060206CAD42004101D6 /* BDOpenCVPlaygroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FA2062206CAD42004101D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FA206B206CAD42004101D6 /* BDOpenCVPlaygroundUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9FA205D206CAD42004101D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9FA2044206CAD42004101D6 /* BDOpenCVPlayground */;
+			targetProxy = F9FA205C206CAD42004101D6 /* PBXContainerItemProxy */;
+		};
+		F9FA2068206CAD42004101D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9FA2044206CAD42004101D6 /* BDOpenCVPlayground */;
+			targetProxy = F9FA2067206CAD42004101D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9FA2050206CAD42004101D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9FA2051206CAD42004101D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9FA206D206CAD42004101D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F9FA206E206CAD42004101D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F9FA2070206CAD42004101D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_ENTITLEMENTS = BDOpenCVPlayground/BDOpenCVPlayground.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BDOpenCVPlayground/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = BDOpenCVPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/**",
+					"$(PROJECT_DIR)/BDOpenCVPlayground/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinsmedical.BDOpenCVPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		F9FA2071206CAD42004101D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_ENTITLEMENTS = BDOpenCVPlayground/BDOpenCVPlayground.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BDOpenCVPlayground/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = BDOpenCVPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/**",
+					"$(PROJECT_DIR)/BDOpenCVPlayground/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinsmedical.BDOpenCVPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		F9FA2073206CAD42004101D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BDOpenCVPlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinsmedical.BDOpenCVPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDOpenCVPlayground.app/Contents/MacOS/BDOpenCVPlayground";
+			};
+			name = Debug;
+		};
+		F9FA2074206CAD42004101D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BDOpenCVPlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinsmedical.BDOpenCVPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDOpenCVPlayground.app/Contents/MacOS/BDOpenCVPlayground";
+			};
+			name = Release;
+		};
+		F9FA2076206CAD42004101D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BDOpenCVPlaygroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinsmedical.BDOpenCVPlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BDOpenCVPlayground;
+			};
+			name = Debug;
+		};
+		F9FA2077206CAD42004101D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BDOpenCVPlaygroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinsmedical.BDOpenCVPlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BDOpenCVPlayground;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9FA2040206CAD42004101D6 /* Build configuration list for PBXProject "BDOpenCVPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FA206D206CAD42004101D6 /* Debug */,
+				F9FA206E206CAD42004101D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FA206F206CAD42004101D6 /* Build configuration list for PBXNativeTarget "BDOpenCVPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FA2070206CAD42004101D6 /* Debug */,
+				F9FA2071206CAD42004101D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FA2072206CAD42004101D6 /* Build configuration list for PBXNativeTarget "BDOpenCVPlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FA2073206CAD42004101D6 /* Debug */,
+				F9FA2074206CAD42004101D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FA2075206CAD42004101D6 /* Build configuration list for PBXNativeTarget "BDOpenCVPlaygroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FA2076206CAD42004101D6 /* Debug */,
+				F9FA2077206CAD42004101D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9FA203D206CAD42004101D6 /* Project object */;
+}
